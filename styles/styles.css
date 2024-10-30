@@ -1,0 +1,100 @@
+/* Resetting browser defaults. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors. */
+    --page-background-color: #eeeeee;
+    --bold-texts-colors: #333;
+}
+
+body {
+    /* Fonts here. */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#tribute-page {
+    width: calc(100% - 1rem);
+    margin: 2rem .5rem;
+    background-color: var(--page-background-color);
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+#img-div {
+    background-color: white;
+    margin: 0 1rem;
+    border-radius: 5px;
+}
+
+#img-div figure img {
+    display: block;
+    margin: 1rem auto;
+}
+
+#img-caption {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+#tribute-info {
+    width: 38%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 3.5rem 0;
+}
+
+#tribute-info ul li {
+    margin: 1rem 0;
+}
+
+#quotation {
+    font-style: italic;
+    margin: 3.5rem 0;
+}
+
+#quotation #author {
+    margin: 1.5rem 0;
+}
+
+section #attribution {
+    padding: 1.5rem 0;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#attribution a {
+    text-decoration: none;
+}
+
+strong,
+h2,
+#attribution {
+    color: var(--bold-texts-colors);
+}
